@@ -14,7 +14,7 @@ public class FinishPoint : MonoBehaviour
     {
         if(collision.tag == "Player")
             {   
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(1);
                 ti.SaveTime();
             }
     }

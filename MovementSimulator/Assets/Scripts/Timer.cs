@@ -44,12 +44,8 @@ public class Timer : MonoBehaviour
             BeginTimer();
             hasStarted = true;
         }
-        SaveTime();
 
-        if (timerGoing)
-        {
-            Debug.Log("Elapsed Time: " + elapsedTime);
-        }
+        SaveTime();
     }
 
     public void BeginTimer()
@@ -78,27 +74,28 @@ public class Timer : MonoBehaviour
         }
     }
 
-public void SaveTime()
-{
-    if (!timerGoing)
+    public void SaveTime()
     {
-        Debug.LogError("Cannot save time, timer is not running!");
-        return;
+        if (!timerGoing)
+        {
+            Debug.LogError("Cannot save time, timer is not running!");
+            return;
+        }
+
+        string formattedTime = timePlaying.ToString("mm':'ss'.'ff");
+        string numericTime = formattedTime.Replace(":", "").Replace(".", "");
+
+        Debug.Log("Saving Time: " + numericTime);
+
+        PlayerPrefs.SetString("FinalTime", numericTime);
+
+        PlayerPrefs.Save();
     }
 
-    string formattedTime = timePlaying.ToString("mm':'ss'.'ff");
-    string numericTime = formattedTime.Replace(":", "").Replace(".", "");
-
-    Debug.Log("Saving Time: " + numericTime);
-
-    PlayerPrefs.SetString("FinalTime", numericTime);
-
-    PlayerPrefs.Save();
-
-    string savedTime = PlayerPrefs.GetString("FinalTime");
-    Debug.Log("Saved Time: " + savedTime);
-
-}
+    public string GetFormattedTime()
+    {
+        return timePlaying.ToString("mm':'ss'.'ff");
+    }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {

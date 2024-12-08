@@ -121,7 +121,23 @@
 -define:DOTWEEN
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.dll"
+-r:"Assets/Packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.SqlServer.dll"
+-r:"Assets/Packages/Microsoft.Win32.Registry.4.7.0/lib/netstandard2.0/Microsoft.Win32.Registry.dll"
+-r:"Assets/Packages/Stub.System.Data.SQLite.Core.NetStandard.1.0.119/lib/netstandard2.1/System.Data.SQLite.dll"
+-r:"Assets/Packages/System.ComponentModel.Annotations.4.7.0/lib/netstandard2.1/System.ComponentModel.Annotations.dll"
+-r:"Assets/Packages/System.Configuration.ConfigurationManager.4.7.0/lib/netstandard2.0/System.Configuration.ConfigurationManager.dll"
+-r:"Assets/Packages/System.Data.SqlClient.4.8.1/lib/netstandard2.0/System.Data.SqlClient.dll"
+-r:"Assets/Packages/System.Data.SQLite.EF6.1.0.119/lib/netstandard2.1/System.Data.SQLite.EF6.dll"
+-r:"Assets/Packages/System.Diagnostics.DiagnosticSource.4.7.0/lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll"
+-r:"Assets/Packages/System.Runtime.CompilerServices.Unsafe.4.7.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll"
+-r:"Assets/Packages/System.Security.AccessControl.4.7.0/lib/netstandard2.0/System.Security.AccessControl.dll"
+-r:"Assets/Packages/System.Security.Cryptography.ProtectedData.4.7.0/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll"
+-r:"Assets/Packages/System.Security.Permissions.4.7.0/lib/netstandard2.0/System.Security.Permissions.dll"
+-r:"Assets/Packages/System.Security.Principal.Windows.4.7.0/lib/netstandard2.0/System.Security.Principal.Windows.dll"
+-r:"Assets/Packages/System.Text.Encoding.CodePages.4.7.0/lib/netstandard2.0/System.Text.Encoding.CodePages.dll"
 -r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
+-r:"Assets/Plugins/Mono.Data.Sqlite.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
