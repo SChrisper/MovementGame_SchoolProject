@@ -9,14 +9,20 @@ Basic liikkuminen
 -----------------
 
 W,A,S,D - perus liikuminen eteenpäin, taakse, oikealle ja vasemmalle
+
 SPACEBAR - hyppy
+
 SHIFT - Juoksu
+
 
 Complicated liikkuminen
 -----------------
 Q - Syöksyminen, syöksy eteenpäin korkealla nopeudella
+
 Left Mouse Button - Swinging, jos tarpeeksi lähellä seinää, kiinnity siihen köydellä ja heilu haluamaasi suuntaan
+
 Right Mouse Button - Grapple, Painamalla right clickiä pystyt kiinnittyä objektiin köydellä ja alat lentämään siihen suuntaan.
+
 Seinä + W - Jos olet juoksemassa eteenpäin seinää vasten ilmassa, alat juoksemaan seinän päällä, jonka jälkeen voit painaa mitä nappia tahansa lopettaakseen seinäjuokseminen.
 
 Synergies (mitkä liikeet toimivat hyvin toisiinsa kanssa)
